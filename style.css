@@ -1,0 +1,54 @@
+body {
+    font-family: 'Tangerine', serif;
+        font-size: 48px;
+        background :#9b528b ;
+}      
+
+.container {
+    text-align: center;
+
+}
+  
+#wapper{
+    display: flex;
+    flex-direction: column;
+    transform: translate(0,170%);
+}
+input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+  
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-5px);
+
+
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
+button:active {
+    transform: translateY(1px);
+}
+
+#haicham {
+    transform: translateY(100px);
+    font-size: 50px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+#minutes,#seconds{
+    width: 100px;
+    height: 50px;
+    transform: translateY(-5px);
+    border: 25px  ;
+}
